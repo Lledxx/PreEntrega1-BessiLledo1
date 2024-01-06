@@ -1,10 +1,11 @@
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { FaShoppingCart } from "react-icons/fa";
+import "./CartWidget.css";
 
 const CartWidget = () => {
   return (
-    <div style={{ display: "flex" }}>
-      <ShoppingCartIcon />
-      <span>X</span>
+    <div className="Carrito">
+      <FaShoppingCart size={35} />
+      <span>5</span>
     </div>
   );
 };

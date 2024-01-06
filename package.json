@@ -1,5 +1,5 @@
 {
-  "name": "vite-project",
+  "name": "vite-project2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,8 +14,12 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.19",
     "@mui/material": "^5.14.19",
+    "axios": "^1.6.5",
+    "proptype": "^1.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",

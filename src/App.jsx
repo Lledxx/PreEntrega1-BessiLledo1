@@ -1,34 +1,40 @@
-
-
-import Header from "./components/Header/Header";
-import UserCard from "./components/UserCard/UserCard";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from "react";
 import NavBar from "./components/NavBar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
-
-
-
-
-const user1 = "Joaquin Alejandro Bessi Lledo";
-
-class App extends React.Component {
+import ItemDetailcontainer from "./components/ItemDetailContainer/ItemDetailContainer";
+import ErrorPage from "./pages/ErrorPage/ErrorPage";
   
-render() {
+  const App = () => {
     return (
-      <div className="App">
-        <NavBar />
-        <ItemListContainer />
-        <div className="UserSection">
-          <UserCard
-            img="https://res.cloudinary.com/dz209s6jk/image/upload/v1626202389/Avatars/usd4kgugmvx0tn9fkcea.jpg"
-            name={user1}
-            date="Se unió en Enero 2023"
-            description="Futuro Full stack Developer"
-          />
+      <Router>
+        <div>
+          <nav>
+            <NavBar />
+          </nav>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <ItemListContainer>
+                  <h1 style={{ marginBottom: "40px" }}>
+                    Bienvenido a Rk 4x4
+                  </h1>
+                  <h5>
+                    Aqui encontraras el mejor equipamento para tu camioneta
+                  </h5>
+                </ItemListContainer>
+              }
+            />
+            <Route path="/Detail/:id" element={<ItemDetailcontainer />} />
+            <Route path="/Category/:categoryId" element={<ItemListContainer />} />
+            <Route path="*" element={<ErrorPage />} />
+          </Routes>
         </div>
-       
-      </div>
+      </Router>
     );
-  }
-}
+  };
+  
+  export default App;
 
-export default App;
+

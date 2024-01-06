@@ -1,0 +1,54 @@
+[
+    {
+        "id":1,
+        "nombre":"Luces Led",
+        "descripcion":"12v",
+        "genero": "Luces led",
+        "precio": 50000,
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_680854-MLA48956242564_012022-O.webp"
+        
+     },
+     {
+        "id":2,
+        "nombre":"Bumper",
+        "descripcion":"Bumper facil colocacion",
+        "genero": "Bumpers",
+        "precio": 700000,
+        "imagen":"https://image.made-in-china.com/2f0j00debVDsrcwSkB/Custom-4X4-Steel-Car-Front-Rear-Bumper-Bull-Bar-for-Toyota-Hilux-Land-Cruiser-Nissan-Navara-D40-Ford-Ranger-Isuzu-Dmax-Triton.webp"
+        
+     },
+     {
+        "id":3,
+        "nombre":"Malacate chino 9500lbs",
+        "descripcion":"nuevo",
+        "genero": "Malacates",
+        "precio": 1000000,
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_860711-MLA47778259394_102021-O.webp"
+        
+     },
+     {
+        "id":4,
+        "nombre":"Carpa de techo",
+        "descripcion":"Carpas de techo",
+        "genero": "Carpas",
+        "precio": 2000000,
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_976752-MLA52197148478_102022-O.webp"
+    },
+     {
+        "id":5,
+        "nombre":"Racks de techo",
+        "descripcion":"Rack reforzado tk",
+        "genero": "Racks",
+        "precio": 700000,
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_690872-MLA47860739341_102021-O.webp"
+    }
+    ,
+    {
+        "id":6,
+        "nombre":"Snorkel",
+        "descripcion":"Snorkels 4x4",
+        "genero": "Snorkels",
+        "precio": 270000,
+        "imagen":"https://www.ironman4x4.com/wp-content/uploads/2021/06/ISNORKEL001-1.jpg"
+    }
+    ]
